@@ -1,0 +1,15 @@
+#include "stdinc.hmac"
+<HTML>
+_STDHEAD(Sample Document Page 1)
+
+<BODY>
+
+_BODYHEAD
+
+This is the first page.
+
+/* This text will never appear in the final document*/
+
+</BODY>
+
+</HTML>
