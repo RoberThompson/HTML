@@ -2,7 +2,7 @@ h1, h2, p {
     text-align: center;
   }
 body{/*background-color:burlywood;*/
-    background-image: url(ilgm2.jpg);
+    background-image: url(IMG_20230528_020542240.jpg);
 }
 /*class selector replacing div styles with .menu */
 .column1{text-align: left; width: 50%;}
