@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Registration Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label" for="name">Name<input id="name" type="text" placeholder="Enter Your Name" class="form-control" required></label> 
+            <label id="email-label" for="email">Email<input id="email" type="email" placeholder="Enter Your Email" class="form-control" required></label>
+            <label id="number-label" for="number">Age<input id="number" type="number" min="13" max="120" placeholder="Enter Your Age" class="form-control"></label>
+        </fieldset>
+        <fieldset>
+            <select id="dropdown" class="form-control">
+                <option>Select Current Role</option>
+                <option value="student">Student</option>
+                <option value="job">Full Time Job</option>
+                <option value="learner">Full Time Learner</option>  
+            </select> 
+            <label><input name="user-recommend" value="definately" type="radio" class="input-radio" checked>Definately</label>
+            <label><input name="user-recommend" value="not-sure" type="radio" class="input-radio">Not Sure</label>
+        </fieldset>
+        <fieldset>
+            <p>What would you like to see improved?</p>
+            <label><input name="prefer" value="back-end-projects" type="checkbox" class="input-checkbox">Back-end Projects</label>
+            <label><input name="prefer" value="front-end-projects" type="checkbox" class="input-checkbox">Front-end Projects</label>
+            <label><input name="prefer" value="data-visualization" type="checkbox" class="input-checkbox">Data Visualization</label>
+        </fieldset>
+        <fieldset>
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" name="comment" class="input-textarea" placeholder="enter your comment here..."></textarea>
+            <button type="submit" id="submit" class="submit-button"> Submit </button> 
+        </fieldset>
+    </form>
+</html>
